@@ -1,0 +1,3 @@
+[submodule "Automation4Yuque"]
+	path = Automation4Yuque
+	url = git@github.com:ryuzheng/Automation4Yuque.git
