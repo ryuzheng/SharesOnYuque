@@ -1,0 +1,38 @@
+name: Yuque
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Init submodule
+      run: |
+        git submodule update --init --recursive
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - name: Install dependencies
+      run: |
+        cd ./Automation4Yuque
+        python -m pip install --upgrade pip
+        pip install -r dependence.txt
+
+    - name: update Yuque
+      env:
+        API_HOST: ${{ secrets.API_HOST }}
+        USER_TOKEN: ${{ secrets.USER_TOKEN }}
+        NAMESPACE: ${{ secrets.NAMESPACE }}
+      run: |
+        cd ./Automation4Yuque
+        python ./build.py -s "../src/" --api_host $API_HOST --user_token $USER_TOKEN --namespace $NAMESPACE
