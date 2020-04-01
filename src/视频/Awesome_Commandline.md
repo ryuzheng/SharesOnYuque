@@ -1,5 +1,5 @@
 ---
-title: 2020-03-29-Python Online 分享: Awesome Commandline
+title: "2020-03-29-Python Online 分享: Awesome Commandline"
 slug: awesome_commandline
 date: 2020-04-01 17:09:37
 status: publish
