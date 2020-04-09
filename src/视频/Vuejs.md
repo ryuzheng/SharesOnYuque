@@ -13,6 +13,4 @@ B站上的视频地址：
 
 <iframe src="https://player.bilibili.com/player.html?aid=91714806&bvid=BV1L7411M7Ut&cid=156590466&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-油管上的视频地址：
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/OrxmtDw4pVI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+油管上的视频地址：https://www.youtube.com/watch?v=OrxmtDw4pVI
