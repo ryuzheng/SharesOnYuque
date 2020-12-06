@@ -9,7 +9,7 @@ status: publish
 
 目前轻芒已经准备正式版了，支持IOS和安卓，还有ipad版，使用以下的二维码，扫码下载后，输入图中的不限次数邀请码即可。
 
-![邀请码](assets/qingmang_03.jpg)
+![邀请码](assets/qingmang_04.jpg)
 
 
 https://mp.weixin.qq.com/s/f9nmohYxVzqs4RHraBqg2w
