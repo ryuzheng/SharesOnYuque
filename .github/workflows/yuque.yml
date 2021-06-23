@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        token: ${{ secrets.Github_PAT }}
+        token: ${{ secrets.GH_TOKEN }}
         submodules: 'true'
 
     - name: Set up Python 3.8
